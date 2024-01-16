@@ -1,0 +1,50 @@
+.chip-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .chips {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .chip {
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .chip-remove {
+    cursor: pointer;
+    margin-left: 4px;
+  }
+  
+  .item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item-list li {
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    &:hover {
+      background-color: #f0f0f0;
+    }
+  }
+  
+  input {
+      border: none;
+      border-bottom: 2px solid transparent;
+      outline: none;
+      transition: border-color 0.3 ease;
+    
+  }
+  input:focus{
+    
+    border-color: #2196f3;
+  }
